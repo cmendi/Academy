@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+.body-main {
+    background-image: url(/images/background-image.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.body-contact, .body-about, .body-products {
+    background-color: #ed9e207e;
+    min-height: 100vh;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px 10px 100px;
+}
+
+.logo {
+    width: 10rem;
+    cursor: pointer;
+}
+
+.navbar {
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar li {
+    font-weight: bold;
+    display: inline-block;
+    background-color: #ED9F20;
+    border-radius: 22em;
+    margin: 0 0.3em 0.3em 0;
+    border: none;
+    padding: 0.3em 1.2em;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    transform: scale(1.1) perspective(1px);
+}
+
+.title-page {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
+.title-page h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.title-page p {
+    width: 50%;
+    color: white;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 12px 34px;
+    margin-top: 50px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #ED9F20;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #ED9F20;
+    transition: 0.5s ease-out;
+}
+
+.contact-box {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 35px;
+    background-color: #ED9F20;
+    border-radius: 20px;
+}
+
+.contact-box h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contact-box p {
+    font-size: 1.2rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-box label {
+    font-weight: bold;
+}
+
+.input-fields {
+    height: 250px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+.contact-button {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: all 0.2s ease-out;
+}
+
+.contact-button:hover {
+    transform: scale(1.1) perspective(1px);
+}
+
+.about-page {
+    margin: auto;
+    padding-top: 75px;
+    width: 900px;
+    align-items: center;
+}
+
+.image-box {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.image-box img {
+    border-radius: 20px;
+}
+
+.about-img {
+    width: 1000px;
+}
+
+.about-box {
+    width: 600px;
+    text-align: center;
+    position: relative;
+    background-color: #f6d090;
+    bottom: 100px;
+    left: 200px;
+    border-radius: 20px;
+}
+
+.about-box h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.about-box p {
+    padding: 10px;
+}
+
+.product-container {
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.product-one, .product-two, .product-three {
+    background-color: #ED9F20;
+    border-radius: 20px;
+    padding-top: 100px;
+    width: 500px;
+    height: 700px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.product-container h1 {
+    font-size: 50px;
+}
+
+
+.product-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.product-container p {
+    padding: 10px;
+}
+
+.product-container button {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.product-container button:hover {
+    background-color: #000000;
+    transition: 0.3s ease-out;
+    color: white;
+}
