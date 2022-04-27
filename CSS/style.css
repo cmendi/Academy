@@ -163,7 +163,6 @@ input[type=text], textarea {
 
 .about-page {
     margin: auto;
-    margin-top: 0px;
     padding-top: 75px;
     width: 900px;
     align-items: center;
@@ -313,12 +312,19 @@ input[type=text], textarea {
 
 @media (min-width: 1920px) {
     .contact-box {
-        margin-top: 50px;
+        margin-top: 0px;
+    }
+    
+    .social-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
     }
 
     .about-page {
         margin: auto;
-        margin-top: 50px;
+        margin-top: 0px;
         padding: 0;
         width: 900px;
         align-items: center;
@@ -332,7 +338,7 @@ input[type=text], textarea {
     .product-container {
         text-align: center;
         margin: auto;
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     .product-one, .product-two, .product-three {
