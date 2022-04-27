@@ -316,10 +316,10 @@ input[type=text], textarea {
     }
     
     .social-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
     }
 
     .about-page {
@@ -333,6 +333,10 @@ input[type=text], textarea {
     .image-box {
         text-align: center;
         margin-top: 0;
+    }
+    
+    .about-img {
+        width: 750px;
     }
 
     .product-container {
