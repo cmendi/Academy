@@ -178,7 +178,7 @@ input[type=text], textarea {
 }
 
 .about-img {
-    width: 1000px;
+    width: 900px;
 }
 
 .about-box {
@@ -187,7 +187,7 @@ input[type=text], textarea {
     position: relative;
     background-color: #f6d090;
     bottom: 100px;
-    left: 200px;
+    left: 150px;
     border-radius: 20px;
 }
 
@@ -324,4 +324,40 @@ input[type=text], textarea {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+}
+
+
+@media (min-width: 1920px) {
+    .contact-box {
+        margin-top: 50px;
+    }
+
+    .about-page {
+        margin: auto;
+        margin-top: 50px;
+        padding: 0;
+        width: 900px;
+        align-items: center;
+    }
+
+    .image-box {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .product-container {
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .product-one, .product-two, .product-three {
+        background-color: #ED9F20;
+        border-radius: 20px;
+        padding-top: 100px;
+        width: 500px;
+        height: 700px;
+        margin: 0px 20px 20px 20px;
+        display: inline-block;
+    }
 }
