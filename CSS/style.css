@@ -310,7 +310,7 @@ input[type=text], textarea {
 }
 
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1920px) and (min-width: 900px) {
     .contact-box {
         margin-top: 50px;
     }
