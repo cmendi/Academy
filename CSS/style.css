@@ -460,4 +460,46 @@ input[type=text], textarea {
     button:hover {
         display: none;
     }
+
+    .about-page {
+        margin: auto;
+        padding-top: 75px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .image-box {
+        text-align: center;
+        margin-top: 250px;
+    }
+    
+    .image-box img {
+        border-radius: 20px;
+    }
+    
+    .about-img {
+        width: 350px;
+    }
+    
+    .about-box {
+        width: 250px;
+        height: 380px;
+        text-align: center;
+        position: relative;
+        background-color: #ffffff;
+        left: 80px;
+        bottom: 50px;
+        border-radius: 20px;
+    }
+    
+    .about-box h1 {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .about-box p {
+        font-size: 15px;
+        padding: 5px;
+    }
  }
