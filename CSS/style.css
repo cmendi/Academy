@@ -375,7 +375,6 @@ input[type=text], textarea {
         align-items: center;
         right: 20px;
         top: 250px;
-        padding-bottom: 20px;
         position: absolute;
     }
 
@@ -396,7 +395,8 @@ input[type=text], textarea {
     .title-page h1 {
         color: black;
         font-size: 40px;
-        padding: 20px 20px 0px 20px;
+        padding: 0px 20px 0px 20px;
+        margin-top: 40px;
     }
 
     .btn {
