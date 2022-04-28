@@ -355,7 +355,7 @@ input[type=text], textarea {
     }
 }
 
-@media (max-width: 500px) and (hover:none) {
+@media (max-width: 500px) {
     .main-image {
         display: none;
     }
@@ -444,7 +444,7 @@ input[type=text], textarea {
     }
     
     .product-container button {
-        color: black;
+        color: black !important;
         width: 140px;
         height: 50px;
         border: none;
@@ -454,5 +454,9 @@ input[type=text], textarea {
         font-size: 20px;
         cursor: pointer;
         background-color: #f6cf90;
+    }
+
+    button:hover {
+        display: none;
     }
  }
