@@ -7,8 +7,6 @@
     font-family: 'poppins';
 }
 
-/* commit test */
-
 .body-main {
     width: 100%;
     min-height: 100vh;
@@ -357,7 +355,7 @@ input[type=text], textarea {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) and (hover:none) {
     .main-image {
         display: none;
     }
@@ -412,5 +410,48 @@ input[type=text], textarea {
     
     .btn:hover {
         display: none;
+    }
+
+    .product-container {
+        text-align: center;
+        margin-top: 300px;
+    }
+
+    .product-one, .product-two, .product-three {
+        background-color: #ED9F20;
+        border-radius: 20px;
+        width: 350px;
+        height: 350px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .product-container h1 {
+        font-size: 30px;
+    }
+    
+    
+    .product-container img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+    
+    .product-container p {
+        padding: 0px;
+        font-size: 15px;
+    }
+    
+    .product-container button {
+        width: 140px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #f6cf90;
     }
  }
