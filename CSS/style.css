@@ -354,3 +354,52 @@ input[type=text], textarea {
         display: inline-block;
     }
 }
+
+@media (max-width: 500px) {
+    .main-image {
+        display: none;
+    }
+
+    .body-main {
+        background-color: #ed9e207e;
+    }
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        right: 140px;
+        width: 200px;
+    }
+
+    .navbar {
+        align-items: center;
+        right: 20px;
+        top: 250px;
+        position: absolute;
+    }
+
+    .title-page p {
+        color: black;
+        width: 80%;
+    }
+
+    .title-page h1 {
+        color: black;
+        font-size: 50px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .btn {
+        margin-top: 10px;
+        background-color: #ED9F20;
+    }
+
+    .btn a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    
+    .btn:hover {
+        display: none;
+    }
+ }
