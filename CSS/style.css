@@ -603,4 +603,24 @@ input[type=text], textarea {
     .social-box .icon:hover .tooltip {
         display: none;
     }
+
+    .navbar-links {
+        display: none;
+    }
+    
+    .custom-navbar {
+        text-align: center;
+    }
+    
+    .brand-logo img {
+        width: 120px;
+    }
+    
+    .box_astronaut {
+        top: 70%;
+    }
+    
+    .central-body {
+        padding-top: 25%;
+    }
  }
