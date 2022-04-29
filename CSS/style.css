@@ -603,16 +603,4 @@ input[type=text], textarea {
     .custom-navbar {
         text-align: center;
     }
-    
-    .brand-logo img {
-        width: 120px;
-    }
-    
-    .box_astronaut {
-        top: 70%;
-    }
-    
-    .central-body {
-        padding-top: 25%;
-    }
  }

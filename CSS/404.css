@@ -204,23 +204,15 @@ html, body {
     }
     
     @media (max-width: 500px) {
-        .navbar-links {
-            display: none;
-        }
-        
-        .custom-navbar {
-            text-align: center;
-        }
-        
-        .brand-logo img {
-            width: 120px;
-        }
-        
         .box_astronaut {
             top: 70%;
         }
+
+        .image-404 {
+            width: 250px;
+        }
         
         .central-body {
-            padding-top: 70%;
+            padding-top: 60%;
         }
     }
