@@ -149,6 +149,10 @@ input[type=text], textarea {
     opacity: 0.5;
   }
 
+  input[type=text]:focus {
+    outline: solid black;
+}
+
 .contact-button {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -578,6 +582,10 @@ input[type=text], textarea {
         margin-bottom: 16px;
         font-size: 12px;
         resize: vertical;
+      }
+
+      input[type=text]:focus {
+          outline: solid black;
       }
     
     .contact-button {
