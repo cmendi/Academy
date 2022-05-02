@@ -41,7 +41,7 @@ header {
 .navbar li {
     font-weight: bold;
     display: inline-block;
-    background-color: #ED9F20;
+    background-color: #0000005b;
     border-radius: 22em;
     margin: 0 0.3em 0.3em 0;
     border: none;
@@ -50,7 +50,7 @@ header {
 }
 
 .navbar li a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -82,21 +82,16 @@ header {
     cursor: pointer;
     padding: 12px 34px;
     margin-top: 50px;
-    color: white;
-    background-color: transparent;
-    border: 2px solid #ED9F20;
+    background-color: rgba(255, 255, 255, 0.445);
+    border: none;
+    border-radius: 5px;
     font-weight: bold;
     transition: all 0.5s ease-in-out;
 }
 
 .btn a {
-    color: white;
+    color: black;
     text-decoration: none;
-}
-
-.btn:hover {
-    background-color: #ED9F20;
-    transition: 0.5s ease-out;
 }
 
 .body-contact {
@@ -150,6 +145,7 @@ input[type=text], textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-weight: bold;
     opacity: 0.5;
   }
 
@@ -383,7 +379,7 @@ input[type=text], textarea {
     }
 
     .product-one, .product-two, .product-three {
-        background-color: #ED9F20;
+        background-color: rgba(0, 0, 0, 0.377);
         border-radius: 20px;
         padding-top: 100px;
         width: 500px;
@@ -439,12 +435,16 @@ input[type=text], textarea {
 
      .btn {
         margin-top: 10px;
-        background-color: #ED9F20;   
+        background-color: rgba(255, 255, 255, 0.445);  
     }
 
     .btn a {
-        color: rgb(0, 0, 0);
+        color: black;
         text-decoration: none; 
+    }
+
+    .product-img, .aboutmain-img, .contact-img {
+        display: none;
     }
 
     .product-container {
@@ -453,7 +453,7 @@ input[type=text], textarea {
     }
 
     .product-one, .product-two, .product-three {
-        background-color: #ED9F20;
+        background-color: rgba(0, 0, 0, 0.377);
         border-radius: 20px;
         width: 350px;
         height: 350px;
@@ -479,7 +479,7 @@ input[type=text], textarea {
     }
     
     .product-container button {
-        color: black !important;
+        color: rgb(255, 255, 255) !important;
         width: 140px;
         height: 50px;
         border: none;
@@ -488,7 +488,7 @@ input[type=text], textarea {
         font-weight: bold;
         font-size: 20px;
         cursor: pointer;
-        background-color: #f6cf90;
+        background-color: #000000;
     }
     
     .about-page {
@@ -516,7 +516,8 @@ input[type=text], textarea {
         height: 380px;
         text-align: center;
         position: relative;
-        background-color: #ED9F20;
+        background-color: black;
+        color: white;
         left: 90px;
         bottom: 50px;
         border-radius: 20px;
@@ -539,7 +540,8 @@ input[type=text], textarea {
         margin: auto;
         margin-top: 300px;
         padding: 35px;
-        background-color: #ED9F20;
+        background-color: rgba(0, 0, 0, 0.432);
+        color: white;
         border-radius: 20px;
     }
 
