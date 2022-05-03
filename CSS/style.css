@@ -587,6 +587,8 @@ input[type=text], textarea {
       input[type=text]:focus {
           outline: 4px solid black;
           border-radius: 4px;
+          -webkit-appearance: none;
+          border-radius: 0;
       }
     
     .contact-button {
