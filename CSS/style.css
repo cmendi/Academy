@@ -582,13 +582,12 @@ input[type=text], textarea {
         margin-bottom: 16px;
         font-size: 12px;
         resize: vertical;
+        -webkit-appearance: none;
       }
 
       input[type=text]:focus {
           outline: 4px solid black;
           border-radius: 4px;
-          -webkit-appearance: none;
-          border-radius: 0;
       }
     
     .contact-button {
