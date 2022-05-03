@@ -586,7 +586,7 @@ input[type=text], textarea {
       }
 
       input[type=text]:focus {
-          outline: 4px solid black;
+          outline: none;
           border-radius: 4px;
       }
     
