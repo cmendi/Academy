@@ -426,6 +426,7 @@ input[type=text], textarea {
     .navbar li {
         padding: 0.3em 1.2em;
         font-size: 13px;
+        background-color: rgba(53, 51, 51, 0.377);
     }
 
     .title-page {
@@ -464,7 +465,7 @@ input[type=text], textarea {
     }
 
     .product-one, .product-two, .product-three {
-        background-color: rgba(0, 0, 0, 0.377);
+        background-color: rgba(53, 51, 51, 0.377);
         border-radius: 20px;
         width: 350px;
         height: 350px;
@@ -499,7 +500,7 @@ input[type=text], textarea {
         font-weight: bold;
         font-size: 20px;
         cursor: pointer;
-        background-color: #000000;
+        background-color: #c01414;
     }
     
     .about-page {
